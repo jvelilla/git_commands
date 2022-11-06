@@ -30,10 +30,11 @@ Go to the `src` folder and edit the `APPLICATION` class add a the following line
 
 Now if you check the class APPLICATION, the changes are not anymore.
 
-To retrieve your stashed files you can do, it will retrieve the latest stahsed work.
+To retrieve your stashed files you can dowork.
 ```
 > git stash pop
 ```
+it will retrieve the latest stashed work.
 
 ### Option with label.
 If you have multiple stashes is convenient to label them so it's easier to manage the stashes.
