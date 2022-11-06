@@ -88,3 +88,27 @@ And if you want an specific stash entry
 git stash show 2 -p
 ```
 Where two is the 2 entry in the list of stashes.
+
+
+## Staging
+## How to add Changes to Git.
+
+```
+git add .
+```
+This will add everything to the staging.
+
+```
+git commit -am "message"
+```
+This will add and commit at the same time.
+
+```
+git add specific_file
+```
+This will add the `specific_file` to the staging are.
+To revert this, you can execute 
+```
+git reset specific_file
+```
+
