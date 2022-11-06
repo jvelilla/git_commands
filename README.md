@@ -3,6 +3,7 @@
 Git command auto-completion using [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) on Linux based Systems.
 
 # Status
+    - [git status](https://initialcommit.com/blog/git-status)
 
 # Stash
     - [git stash](https://git-scm.com/docs/git-stash)
