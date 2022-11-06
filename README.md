@@ -9,6 +9,7 @@ Git command auto-completion using [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) 
 
 # Stash
     - [git stash](https://git-scm.com/docs/git-stash)
+    - https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning
     - [tutorial](https://git-scm.com/docs/git-stash)
     - Allows you to go back to the head of a directory and keep your changes.
     - Useful when you want to keep code wihtout committing it.
@@ -67,3 +68,22 @@ I will remove the stash at index 0, if the list is empty you will get an error l
 ```
 error: refs/stash@{0} is not a valid reference
 ```
+### Check Stack diff
+
+TO check the differences between a stash entry an the last commit you can execute
+
+```
+git stash show
+```
+This one will show a short summary comparing the last commit, with the most recent stash entry. If you want a detailed summary you will need to use
+
+```
+git stash show -p
+```
+
+And if you want an specific stash entry 
+
+```
+git stash show 2 -p
+```
+Where two is the 2 entry in the list of stashes.
