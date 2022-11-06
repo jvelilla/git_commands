@@ -54,3 +54,13 @@ if you want to retrive one of them, just use the following command
 >git stash apply 1
 ```
 Apply the work done stash at index 1.
+
+### To remove stash from the list
+
+```
+git stash drop 0
+```
+I will remove the stash at index 0, if the list is empty you will get an error like this
+```
+error: refs/stash@{0} is not a valid reference
+```
