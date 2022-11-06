@@ -68,7 +68,7 @@ I will remove the stash at index 0, if the list is empty you will get an error l
 ```
 error: refs/stash@{0} is not a valid reference
 ```
-### Check Stack diff
+### Check Stash diff
 
 TO check the differences between a stash entry an the last commit you can execute
 
