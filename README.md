@@ -1,15 +1,18 @@
 "# git_commands" 
+List of the most useful Git commands that will be available via EiffelGit library.
 
 Git command auto-completion using [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) on Linux based Systems.
 
 # Status
     - [git status](https://initialcommit.com/blog/git-status)
+    - to check on the state of you current directory.
 
 # Stash
     - [git stash](https://git-scm.com/docs/git-stash)
     - [tutorial](https://git-scm.com/docs/git-stash)
     - Allows you to go back to the head of a directory and keep your changes.
     - Useful when you want to keep code wihtout committing it.
+    - Get a clean working directory.
 
 ## Example
 Go to the `src` folder and edit the `APPLICATION` class add a the following line of code to
@@ -26,7 +29,7 @@ Go to the `src` folder and edit the `APPLICATION` class add a the following line
 
 Now if you check the class APPLICATION, the changes are not anymore.
 
-To retrieve your stashed files you can do
+To retrieve your stashed files you can do, it will retrieve the latest stahsed work.
 ```
 > git stash pop
 ```
@@ -55,12 +58,12 @@ if you want to retrive one of them, just use the following command
 ```
 Apply the work done stash at index 1.
 
-### To remove stash from the list
+### To remove a stash entry from the list
 
 ```
 git stash drop 0
 ```
-I will remove the stash at index 0, if the list is empty you will get an error like this
+I will remove the stash at index 0, if the list is empty you will get an error like this. The same issue applies if you try to drop an index that doesn't exit.
 ```
 error: refs/stash@{0} is not a valid reference
 ```
