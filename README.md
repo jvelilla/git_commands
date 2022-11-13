@@ -96,10 +96,11 @@ Where two is the 2 entry in the list of stashes.
 The staging area is a (temporary)place to record things(changes) before committing.
 
     - https://initialcommit.com/blog/git-add
-## How to add Changes to Git.
-Use `git status` to check you changes to the repository.
 
-The git add command can be used to stage one file, multiple files, or stage changes in an entire directory.
+## How to add Changes to Git.
+Use `git status` to check your changes to the repository.
+
+The `git add` command can be used to stage one file, multiple files, or stage changes in an entire directory.
 ```
 git add .
 ```
@@ -129,6 +130,11 @@ It will show you all the chanages one by one, asking you if you want to add them
 Allows us to interactively choose which chunks of code to stage for a commit, allowing us to break our commits up into more reasonable sizes. In this way we can commit the bits of changes within a file that we need, instead of all the changes in the file at once.
 
 
+### Excercise
+
+1. Add changes to multiple files.
+2. Add part of the changes
+3. Finally commit.
 
 
 
