@@ -16,9 +16,11 @@ Git command auto-completion using [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) 
     - Get a clean working directory.
 
 ## Example
-Go to the `src` folder and edit the `APPLICATION` class add a the following line of code to
-`make`
+Go to the `src` folder and edit the `APPLICATION` class, add a the following line of code to `make`
+
+```
     print ("Hello Eiffel")
+```
 
 ### How to save this work in progress file without committing?
 
@@ -30,11 +32,11 @@ Go to the `src` folder and edit the `APPLICATION` class add a the following line
 
 Now if you check the class APPLICATION, the changes are not anymore.
 
-To retrieve your stashed files you can dowork.
+To retrieve your stashed files you can do.
 ```
 > git stash pop
 ```
-it will retrieve the latest stashed work.
+it will retrieve the latest stashed work, the stash work at index 0. 
 
 ### Option with label.
 If you have multiple stashes is convenient to label them so it's easier to manage the stashes.
